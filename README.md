@@ -34,7 +34,7 @@
 <p><a href="https://www.youtube.com/live/hWf7DN3nN_c"> <img src="https://img.shields.io/badge/See%20Video-black?style=for-the-badge&logo=YouTube" width="160""/></a></p>
 
 ### Fork Repo Then click on below button of ur fork repo.
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shadownnilllxa/AutoAnimeBot)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shadownnilllxa/automaticani)
 
 ## Developer Note
 
