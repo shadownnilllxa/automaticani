@@ -3,7 +3,9 @@
     "description": "Upload Ongoing Animes In Negligible Size... Automatically",
     "logo": "https://graph.org/file/ad1b25807b81cdf1dff65.jpg",
     "keywords": ["Telegram","python", "anime","Compressor","Encoder", "ongoing"],
-    "repository": "https://github.com/shadownnilllxa/AutoAnimeBot"
+    "repository": "https://github.com/shadownnilllxa/automaticani",
+    "success_url": "",
+    "stack": "container",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org",
