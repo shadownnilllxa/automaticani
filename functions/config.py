@@ -22,26 +22,26 @@ from decouple import config
 class Var:
     # Telegram Credentials
 
-    API_ID = config("API_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    API_ID = config("API_ID", default="7713526")
+    API_HASH = config("API_HASH", default="6f87b351ddf6c8c56999f8ba5b19cc7c)
+    BOT_TOKEN = config("BOT_TOKEN", default="7019818679:AAEHKGQLk6HeDyc9UauwnHxqM8yudHZatoM")
     SESSION = config("SESSION", default=None)
 
     # Database Credentials
 
-    FIREBASE_URL = config("FIREBASE_URL", default=None)
+    FIREBASE_URL = config("FIREBASE_URL", default="https://aniwrld-b8fc4-default-rtdb.firebaseio.com/")
     FIREBASE_SERVICE_ACCOUNT_FILE = config(
-        "FIREBASE_SERVICE_ACCOUNT_FILE", default=None
+        "FIREBASE_SERVICE_ACCOUNT_FILE", default="https://gist.githubusercontent.com/shadownnilllxa/2dc70da59003f3e4d8855e0b9f830880/raw/24186eadf4e725c794a4573165b54f5dce8dd548/service.json"
     )
 
     # Channels Ids
 
-    BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=0, cast=int)
-    MAIN_CHANNEL = config("MAIN_CHANNEL", cast=int)
-    LOG_CHANNEL = config("LOG_CHANNEL", cast=int)
-    CLOUD_CHANNEL = config("CLOUD_CHANNEL", cast=int)
+    BACKUP_CHANNEL = config("BACKUP_CHANNEL", default="-1002156623370")
+    MAIN_CHANNEL = config("MAIN_CHANNEL", default="-1001580437794")
+    LOG_CHANNEL = config("LOG_CHANNEL", default="-1002221502583")
+    CLOUD_CHANNEL = config("CLOUD_CHANNEL", default="-1002187386927")
     FORCESUB_CHANNEL = config("FORCESUB_CHANNEL", default=0, cast=int)
-    OWNER = config("OWNER", default=0, cast=int)
+    OWNER = config("OWNER", default="5071463525")
 
     # Other Configs
 
